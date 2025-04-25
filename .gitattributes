@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
+# Normalize all text files (avoids line-ending issues across OSes)
 * text=auto
+
+# Treat large data and model files as binary to skip diffs
+*.csv binary
+*.pkl binary
+*.png binary
+
+# Ensure Python files are recognized properly by GitHub linguist
+*.py linguist-language=Python
