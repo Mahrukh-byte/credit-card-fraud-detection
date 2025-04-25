@@ -6,7 +6,7 @@ This project implements a machine learning pipeline to detect fraudulent credit 
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The dataset is divided into two parts:
 - `train_data.csv`: Used to train the model.
@@ -18,7 +18,7 @@ Each transaction is represented by numerical features (likely PCA-transformed), 
 
 ---
 
-## 🧹 Preprocessing
+## Preprocessing
 
 - No null value handling required (data is already clean)
 - Features and target (`Class`) are separated
@@ -26,7 +26,7 @@ Each transaction is represented by numerical features (likely PCA-transformed), 
 
 ---
 
-## 🤖 Model: XGBoost Classifier
+## Model: XGBoost Classifier
 
 Key parameters:
 - `n_estimators=50`
@@ -39,7 +39,7 @@ The model is trained on the training dataset and evaluated on the test set.
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 ### 1. **Default Threshold = 0.5**
 - Classification Report and Confusion Matrix are generated.
@@ -53,16 +53,16 @@ The model is trained on the training dataset and evaluated on the test set.
 - ROC Curve is plotted.
 - AUC (Area Under Curve) is calculated and displayed.
 - 
-## 🧠 Model Saving
+## Model Saving
 
 - The trained model is saved using `joblib` as:  
   `models/xgboost_model.pkl`
 
-## 📈 Output Plot
+## Output Plot
 
 - ROC Curve is saved as `plots/roc_curve.png`
 
-## ⚙️ Requirements
+## Requirements
 
 Install the dependencies using:
 
