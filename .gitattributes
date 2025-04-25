@@ -8,3 +8,4 @@
 
 # Ensure Python files are recognized properly by GitHub linguist
 *.py linguist-language=Python
+
