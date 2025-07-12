@@ -52,7 +52,7 @@ The model is trained on the training dataset and evaluated on the test set.
 ### 3. **ROC Curve & AUC Score**
 - ROC Curve is plotted.
 - AUC (Area Under Curve) is calculated and displayed.
-- 
+
 ## Model Saving
 
 - The trained model is saved using `joblib` as:  
